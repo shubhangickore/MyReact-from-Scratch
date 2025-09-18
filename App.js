@@ -10,7 +10,7 @@ export default function App() {
     createElement('h1', null, `Count: ${count}`),
     createElement(
       'button',
-      { onClick: () => setCount(count + 1) },
+      { onClick: () => setCount(count + 2) },
       'Increment'
     )
   );
