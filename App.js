@@ -7,7 +7,7 @@ export default function App() {
   return createElement(
     'div',
     null,
-    createElement('h1', null, ` The count is here : ${count}`),
+    createElement('h1', null, ` The total count is here : ${count}`),
     createElement(
       'button',
       { onClick: () => setCount(count + 2) },
