@@ -57,5 +57,6 @@ export function useState(initial) {
   }
 
   cursor++;
+  
   return [state[currentIndex], setState];
 }
